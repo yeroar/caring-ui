@@ -158,7 +158,7 @@
       },
       "primary": {
         "default": {
-          "value": "{color.amber.500}",
+          "value": "{color.green.500}",
           "type": "color"
         },
         "emphasised": {
