@@ -110,7 +110,7 @@
           "type": "color"
         },
         "on-surface-variant": {
-          "value": "{color.gray.700}",
+          "value": "{color.stone.700}",
           "type": "color"
         },
         "on-accent": {
@@ -130,7 +130,7 @@
           "type": "color"
         },
         "accent": {
-          "value": "{brand.border-width.noneprimary.default}",
+          "value": "{brand.color.primary.default}",
           "type": "color"
         }
       },
@@ -140,7 +140,7 @@
           "type": "color"
         },
         "surface-variant": {
-          "value": "{brand.border-width.noneprimary.subtle}",
+          "value": "{color.stone.50}",
           "type": "color"
         },
         "muted": {
