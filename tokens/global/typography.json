@@ -1,0 +1,215 @@
+{
+  "fontFamilies": {
+    "proxima-nova": {
+      "value": "Proxima Nova",
+      "type": "fontFamilies"
+    },
+    "gotham-pro": {
+      "value": "Gotham Pro",
+      "type": "fontFamilies"
+    },
+    "bitter": {
+      "value": "Bitter",
+      "type": "fontFamilies"
+    },
+    "open-sans": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "14": {
+      "value": "14",
+      "type": "lineHeights",
+      "description": "lineHeights.14"
+    },
+    "24": {
+      "value": "24",
+      "type": "lineHeights",
+      "description": "lineHeights.24"
+    },
+    "26": {
+      "value": "26",
+      "type": "lineHeights",
+      "description": "lineHeights.26"
+    },
+    "28": {
+      "value": "28",
+      "type": "lineHeights",
+      "description": "lineHeights.28"
+    },
+    "30": {
+      "value": "30",
+      "type": "lineHeights",
+      "description": "lineHeights.30"
+    },
+    "32": {
+      "value": "32",
+      "type": "lineHeights",
+      "description": "lineHeights.32"
+    },
+    "36": {
+      "value": "36",
+      "type": "lineHeights",
+      "description": "lineHeights.36"
+    },
+    "40": {
+      "value": "40",
+      "type": "lineHeights",
+      "description": "lineHeights.40"
+    },
+    "44": {
+      "value": "44",
+      "type": "lineHeights",
+      "description": "lineHeights.44"
+    },
+    "hug": {
+      "value": "100%",
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights",
+      "description": "fontWeights.regular"
+    },
+    "medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "Semibold",
+      "type": "fontWeights",
+      "description": "fontWeights.semibold"
+    },
+    "semibold-sa": {
+      "value": "SemiBold",
+      "type": "fontWeights",
+      "description": "fontWeights.SemiBold"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "description": "fontWeights.bold"
+    }
+  },
+  "fontSize": {
+    "12": {
+      "value": "12",
+      "type": "fontSizes",
+      "description": "fontSize.12"
+    },
+    "14": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "15": {
+      "value": "15",
+      "type": "fontSizes",
+      "description": "fontSize.15"
+    },
+    "16": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "fontSize.16\n"
+    },
+    "17": {
+      "value": "17",
+      "type": "fontSizes",
+      "description": "fontSize.17"
+    },
+    "18": {
+      "value": "18",
+      "type": "fontSizes",
+      "description": "fontSize.18"
+    },
+    "21": {
+      "value": "21",
+      "type": "fontSizes",
+      "description": "fontSize.21"
+    },
+    "24": {
+      "value": "24",
+      "type": "fontSizes",
+      "description": "fontSize.24"
+    },
+    "26": {
+      "value": "26",
+      "type": "fontSizes",
+      "description": "fontSize.26"
+    },
+    "30": {
+      "value": "30",
+      "type": "fontSizes",
+      "description": "fontSize.30"
+    },
+    "34": {
+      "value": "34",
+      "type": "fontSizes",
+      "description": "fontSize.34"
+    },
+    "38": {
+      "value": "38",
+      "type": "fontSizes",
+      "description": "fontSize.38\n"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": "1",
+      "type": "letterSpacing"
+    },
+    "15": {
+      "value": "0.15",
+      "type": "letterSpacing",
+      "description": "letterSpacing.15"
+    },
+    "25": {
+      "value": "0.25",
+      "type": "letterSpacing",
+      "description": "letterSpacing.25"
+    },
+    "50": {
+      "value": "0.5",
+      "type": "letterSpacing",
+      "description": "letterSpacing.50"
+    },
+    "125": {
+      "value": "1.25",
+      "type": "letterSpacing",
+      "description": "letterSpacing.125\n"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": "0",
+      "type": "paragraphSpacing"
+    },
+    "8": {
+      "value": "8",
+      "type": "paragraphSpacing",
+      "description": "paragraphSpacing.8"
+    }
+  },
+  "textCase": {
+    "capitalize": {
+      "value": "capitalize",
+      "type": "textCase"
+    },
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  }
+}

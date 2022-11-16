@@ -1,0 +1,56 @@
+[
+  {
+    "id": "b292973c2a412cf7b0785b7f7f5e88a234863fe5",
+    "name": "Assisted Living",
+    "selectedTokenSets": {
+      "comp/button": "disabled",
+      "global/typography": "source",
+      "global/size": "disabled",
+      "global/border": "disabled",
+      "sem-typo/AL": "enabled",
+      "sem-typo/SA": "disabled",
+      "global/spacing": "disabled",
+      "comp/input": "disabled",
+      "comp/text": "disabled",
+      "comp/row": "disabled",
+      "comp/reviews": "disabled",
+      "global/color": "disabled",
+      "documentation/colors": "disabled",
+      "semantic/semantic": "disabled",
+      "comp/floating-form": "disabled",
+      "comp/ui-groups": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "semantic.caption": "S:59d34cc779a29f5b713d4133127da77b5b82ed80,",
+      "semantic.body-2": "S:3b25516142dc7d73af84c87f7c53905cecfab323,",
+      "semantic.body-1": "S:7da01470d574bb6e7de890c0710a8d613f86ac0c,",
+      "semantic.header-3": "S:6d0c49ba4de2a6f4d45fc60342d61903ecd3fca0,",
+      "semantic.header-2": "S:5bc3ecc801f491d96c927f2d6082e5cdabd66a4f,",
+      "semantic.header-1": "S:5bb0474b66692426176a37e4605d8ed9778d5c48,",
+      "semantic.button": "S:0ff87552bb5b91b59e149e9908a2594beaa5d290,"
+    }
+  },
+  {
+    "id": "38d66fdcebed163252ad63622cf99c4669064d3c",
+    "name": "Senior Advice",
+    "selectedTokenSets": {
+      "comp/button": "disabled",
+      "global/typography": "source",
+      "global/size": "disabled",
+      "global/border": "disabled",
+      "sem-typo/AL": "disabled",
+      "sem-typo/SA": "enabled",
+      "global/spacing": "disabled",
+      "comp/input": "disabled",
+      "comp/text": "disabled",
+      "comp/row": "disabled",
+      "comp/reviews": "disabled",
+      "global/color": "disabled",
+      "documentation/colors": "disabled",
+      "semantic/semantic": "disabled",
+      "comp/floating-form": "disabled",
+      "comp/ui-groups": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

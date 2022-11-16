@@ -1,0 +1,45 @@
+{
+  "header-1": {
+    "value": "{semantic.header-1}",
+    "type": "typography",
+    "description": "header-1 text style"
+  },
+  "header-2": {
+    "value": "{semantic.header-2}",
+    "type": "typography"
+  },
+  "header-3": {
+    "value": "{semantic.header-3}",
+    "type": "typography"
+  },
+  "body-1": {
+    "value": "{semantic.body-1}",
+    "type": "typography"
+  },
+  "b1-emph": {
+    "value": "{semantic.b1-emph}",
+    "type": "typography"
+  },
+  "text": {
+    "between-headers": {
+      "value": "{semantic.spacing.text-node.medium}",
+      "type": "spacing"
+    }
+  },
+  "body-2": {
+    "value": "{semantic.body-2}",
+    "type": "typography"
+  },
+  "button": {
+    "value": "{semantic.button}",
+    "type": "typography"
+  },
+  "caption": {
+    "value": "{semantic.caption}",
+    "type": "typography"
+  },
+  "footnote": {
+    "value": "{semantic.footnote}",
+    "type": "typography"
+  }
+}

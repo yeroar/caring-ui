@@ -1,0 +1,24 @@
+{
+  "row": {
+    "inComponent": {
+      "space-between": {
+        "value": "{semantic.spacing.container.row.space-between}",
+        "type": "spacing"
+      },
+      "horizontal-paddings": {
+        "value": "{semantic.spacing.container.row.horizontal-space}",
+        "type": "spacing"
+      },
+      "vertical-paddings": {
+        "value": "{semantic.spacing.container.row.vertical-space}",
+        "type": "spacing"
+      }
+    },
+    "inContainer": {
+      "space-between": {
+        "value": "0",
+        "type": "spacing"
+      }
+    }
+  }
+}
