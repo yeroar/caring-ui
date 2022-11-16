@@ -8,13 +8,10 @@
     "semantic/semantic",
     "sem-typo/AL",
     "sem-typo/SA",
-    "comp/ui-groups",
     "comp/button",
-    "comp/input",
-    "comp/floating-form",
-    "comp/text",
-    "comp/row",
-    "comp/reviews",
-    "documentation/colors"
+    "documentation/colors",
+    "color/base",
+    "color/font",
+    "size/font"
   ]
 }

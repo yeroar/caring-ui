@@ -10,15 +10,9 @@
       "sem-typo/AL": "enabled",
       "sem-typo/SA": "disabled",
       "global/spacing": "disabled",
-      "comp/input": "disabled",
-      "comp/text": "disabled",
-      "comp/row": "disabled",
-      "comp/reviews": "disabled",
       "global/color": "disabled",
       "documentation/colors": "disabled",
-      "semantic/semantic": "disabled",
-      "comp/floating-form": "disabled",
-      "comp/ui-groups": "disabled"
+      "semantic/semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "semantic.caption": "S:59d34cc779a29f5b713d4133127da77b5b82ed80,",
@@ -41,15 +35,9 @@
       "sem-typo/AL": "disabled",
       "sem-typo/SA": "enabled",
       "global/spacing": "disabled",
-      "comp/input": "disabled",
-      "comp/text": "disabled",
-      "comp/row": "disabled",
-      "comp/reviews": "disabled",
       "global/color": "disabled",
       "documentation/colors": "disabled",
-      "semantic/semantic": "disabled",
-      "comp/floating-form": "disabled",
-      "comp/ui-groups": "disabled"
+      "semantic/semantic": "disabled"
     },
     "$figmaStyleReferences": {}
   }
