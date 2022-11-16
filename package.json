@@ -5,7 +5,7 @@
     "token-transformer": "^0.0.27"
   },
   "scripts": {
-    "build": "npx token-transformer tokens.json output.json && npx style-dictionary build",
+    "build": "npx token-transformer tokens output.json && npx style-dictionary build",
     "scriptname": "npx token-transformer tokens output.json && npx style-dictionary build"
   }
 }
