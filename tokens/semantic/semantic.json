@@ -263,115 +263,152 @@
       },
       "inputs": {
         "enabled": {
-          "border": {
-            "value": "{brand.color.inputs.on-surface-variant}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{brand.color.inputs.on-surface-variant}",
+          "container": {
+            "value": "{brand.color.bg.surface-variant}",
             "type": "color"
           },
           "icon-color": {
-            "value": "{brand.color.inputs.on-surface-variant}",
+            "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
           },
-          "background": {
-            "value": "{brand.color.inputs.surface-variant}",
+          "label-text":{
+            "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
-          }
+          },
+          "secondary-fg": {
+            "value": "{brand.color.fg.on-surface-variant}",
+            "type": "color",
+            "description": "prominent components"
+          },
+          "border": {
+            "value": "{brand.color.fg.on-surface-variant}",
+            "type": "color",
+            "description": "active indicator"
+          },
+          "input-text": {
+            "value": "{brand.color.fg.on-surface}",
+            "type": "color"
+          }      
+        },
+        "focused": {
+          "container": {
+            "value": "{brand.color.bg.surface-variant}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{brand.color.fg.on-surface-variant}",
+            "type": "color"
+          },
+          "label-text":{
+            "value": "{brand.color.primary.default}",
+            "type": "color"
+          },
+          "secondary-fg": {
+            "value": "{brand.color.fg.on-surface-variant}",
+            "type": "color",
+            "description": "prominent components"
+          },
+          "border": {
+            "value": "{brand.color.primary.default}",
+            "type": "color",
+            "description": "active indicator"
+          },
+          "caret": {
+            "value": "{brand.color.primary.default}",
+            "type": "color"
+          },
+          "input-text": {
+            "value": "{brand.color.fg.on-surface}",
+            "type": "color"
+          },
+          "state-layer": {
+            "value": "{brand.color.state.focused.state-layer-opacity}",
+            "type": "color"
+          }      
         },
         "hover": {
-          "border": {
-            "value": "{brand.color.inputs.on-surface}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{brand.color.inputs.on-surface}",
+          "container": {
+            "value": "{brand.color.bg.surface-variant}",
             "type": "color"
           },
           "icon-color": {
-            "value": "{brand.color.inputs.on-surface}",
+            "value": "{brand.color.inputs.on-surface-variant}",
             "type": "color"
           },
-          "background": {
-            "value": "{brand.color.bg.surface}",
+          "label-text":{
+            "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
-          }
+          },
+          "secondary-fg": {
+            "value": "{brand.color.fg.on-surface-variant}",
+            "type": "color",
+            "description": "prominent components"
+          },
+          "border": {
+            "value": "{brand.color.fg.on-surface}",
+            "type": "color",
+            "description":"active indicator"
+          },   
+          "input-text": {
+            "value": "{brand.color.fg.on-surface}",
+            "type": "color"
+          },
+          "state-layer": {
+            "value": "{brand.color.state.hover.state-layer-opacity}",
+            "type": "color"
+          }     
         },
-        "selected": {
-          "default": {
-            "border": {
-              "value": "{brand.color.primary.default}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{brand.color.fg.default}",
-              "type": "color"
-            },
-            "icon-color": {
-              "value": "{brand.color.fg.default}",
-              "type": "color"
-            },
-            "background": {
-              "value": "{brand.color.bg.surface}",
-              "type": "color"
-            }
+        "disabled": {
+          "container": {
+            "value": "{brand.color.fg.on-surface}",
+            "type": "color"
           },
-          "hover": {
-            "border": {
-              "value": "{brand.color.primary.muted}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{brand.color.fg.muted}",
-              "type": "color"
-            },
-            "icon-color": {
-              "value": "{brand.color.fg.muted}",
-              "type": "color"
-            },
-            "background": {
-              "value": "{brand.color.bg.surface-variant}",
-              "type": "color"
-            }
+          "text": {
+            "value": "{brand.color.fg.on-disabled}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{brand.color.fg.on-disabled}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{brand.color.fg.on-disabled}",
+            "type": "color"
           }
         },
         "error": {
+          "container": {
+            "value": "{brand.color.bg.surface-variant}",
+            "type": "color"
+          },
+          "leading-icon": {
+            "value": "{brand.color.inputs.on-surface-variant}",
+            "type": "color"
+          },
+          "trailing-icon": {
+            "value": "{brand.color.error.fg}",
+            "type": "color"
+          },
+          "label-text":{
+            "value": "{brand.color.error.fg}",
+            "type": "color"
+          },
+          "secondary-fg": {
+            "value": "{brand.color.error.fg}",
+            "type": "color",
+            "description": "prominent components"
+          },
           "border": {
             "value": "{brand.color.error.fg}",
+            "type": "color",
+            "description":"active indicator"
+          },   
+          "input-text": {
+            "value": "{brand.color.fg.on-surface}",
             "type": "color"
-          },
-          "text": {
-            "value": "{brand.color.error.fg}",
-            "type": "color"
-          },
-          "icon-color": {
-            "value": "{brand.color.error.fg}",
-            "type": "color"
-          },
-          "background": {
-            "value": "{brand.color.bg.surface}",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "{brand.color.fg.disabled}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{brand.color.fg.on-disabled}",
-            "type": "color"
-          },
-          "icon-color": {
-            "value": "{brand.color.fg.on-disabled}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{brand.color.fg.on-disabled}",
-            "type": "color"
-          }
+          }    
         }
+      
       },
       "communication": {
         "info": {
@@ -482,6 +519,51 @@
           "value": "{brand.color.fg.on-accent}",
           "type": "color"
         }
+      },
+      "containment": {
+        "surface": {
+          "value": "{brand.color.bg.surface-variant}",
+          "type": "color",
+          "description": "container bg color value"
+        },
+        "on-surface": {
+          "value": "{brand.color.fg.on-surface-variant}",
+          "type": "color",
+          "description": "primary fg color value"
+        },
+        "on-surface-variant": {
+          "value": "{brand.color.fg.on-surface-variant}",
+          "type": "color",
+          "description": "secondary fg color value"
+        },
+        "surface-variant": {
+          "value": "{brand.color.fg.on-surface-variant}",
+          "type": "color",
+          "description": "divider fg color value"
+        },
+        "primary-container":  {
+          "value": "{brand.color.primary.default}",
+          "type": "color"
+        },
+        "on-primary":  {
+          "value": "{brand.color.fg.on-accent}",
+          "type": "color"
+        }
+        
+      }
+    },
+    "opacity": {
+      "inputs": {
+        "disabled": {
+          "bg": {
+            "value": "{brand.opacity.bg.disabled}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{brand.opacity.fg.on-disabled}",
+            "type": "color"
+          }
+        }
       }
     },
     "size": {
@@ -507,7 +589,7 @@
       },
       "inputs": {
         "height": {
-          "value": "{brand.size.base-600}",
+          "value": "{brand.size.base-700}",
           "type": "sizing"
         },
         "icon-size": {
@@ -536,36 +618,57 @@
         }
       },
       "containment": {
-        "height": {
-          "value": "{brand.size.base-600}",
-          "type": "sizing"
+
+        "container":{
+          "@1-line": {
+            "value": "{brand.size.base-700}",
+            "type": "sizing"
+          },
+          "@2-line": {
+            "value": "{brand.size.base-900}",
+            "type": "sizing"
+          },
+          "@3-line": {
+            "value": "{brand.size.base-1100}",
+            "type": "sizing"
+          }
         },
-        "icon-size": {
-          "value": "{size.250}",
-          "type": "sizing"
+
+        "optional":{
+          "trailing-icon": {
+            "value": "{brand.size.base-300}",
+            "type": "sizing",
+            "description": "optional"
+          },
+          "divider": {
+            "value": "{brand.size.line}",
+            "type": "sizing",
+            "description": "optional"
+          },
+          "leading-avatar-container":{
+            "value": "{brand.size.base-500}",
+            "type": "sizing",
+            "description": "optional"
+          },
+          "leading-icon": {
+            "value": "{brand.size.base-225}",
+            "type": "sizing",
+            "description": "optional"
+          },
+          "leading-image": {
+            "value": "{brand.size.base-700}",
+            "type": "sizing",
+            "description": "optional"
+          }
         }
+        
+        
+
       }
     },
     "spacing": {
       "in-review": {
-        "inputs": {
-          "padding-vertical": {
-            "value": "{space.paddings.multi-150}",
-            "type": "spacing"
-          },
-          "consecutive-inputs": {
-            "value": "{space.200}",
-            "type": "spacing"
-          },
-          "inline-spacing": {
-            "value": "{space.100}",
-            "type": "spacing"
-          },
-          "inComponent-spacing": {
-            "value": "{space.100}",
-            "type": "spacing"
-          }
-        },
+     
         "feedback": {
           "InComponent": {
             "space-between-sm": {
@@ -727,12 +830,12 @@
           "type": "spacing",
           "description": "null paddings for ghost action components"
         },
-        "vertical-padding": {
+        "vertical-paddings": {
           "value": "{brand.spacing.base-150}",
           "type": "spacing",
           "description": "default left / right paddings inside component container"
         },
-        "padding-between-elements": {
+        "paddings-between-elements": {
           "value": "{brand.spacing.base-100}",
           "type": "spacing",
           "description": "space between nested elements inside component "
@@ -747,7 +850,59 @@
           "type": "spacing",
           "description": "space between consecutive buttons"
         }
+      },
+      "containment": {
+        "vertical-paddings": {
+          "value": "{brand.spacing.base-200}",
+          "type": "spacing",
+          "description" : "default vertical paddings"
+        },
+        "vertical-paddings-xl": {
+          "value": "{brand.spacing.base-300}",
+          "type": "spacing",
+          "description" : "trailing element right padding"
+        },
+        "leading-element-paddings": {
+          "value": "{brand.spacing.base-200}",
+          "type": "spacing"
+        },
+        "top-paddings": {
+          "value": "{brand.spacing.base-100}",
+          "type": "spacing"
+        },
+        "top-paddings-xl": {
+          "value": "{brand.spacing.base-150}",
+          "type": "spacing",
+          "description": "Leading icon top padding when height is 88dp or taller"
+        },
+        "null-padding": {
+          "value": "{brand.spacing.ghost}",
+          "type": "spacing",
+          "description": "Leading icon top padding when height is 88dp or taller"
+        }
+      },
+      "inputs": {
+        "vertical-paddings": {
+          "value": "{brand.spacing.base-200}",
+          "type": "spacing"
+        },
+        "vertical-icon-paddings": {
+          "value": "{brand.spacing.base-150}",
+          "type": "spacing"
+        },
+        "consecutive-inputs": {
+          "value": "{space.200}",
+          "type": "spacing"
+        },
+        "paddings-between-elements": {
+          "value": "{brand.spacing.base-200}",
+          "type": "spacing"
+        },
+        "supporting-element-paddings": {
+          "value": "{space.100}",
+          "type": "spacing"
+        }
       }
     }
-  }
+    }
 }

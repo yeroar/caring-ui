@@ -346,6 +346,10 @@
         "value": "{size.200}",
         "type": "sizing"
       },
+      "base-225": {
+        "value": "{size.225}",
+        "type": "sizing"
+      },
       "base-300": {
         "value": "{size.300}",
         "type": "sizing"
@@ -374,31 +378,31 @@
       },
       "base-100": {
         "value": "{space.100}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-150": {
         "value": "{space.150}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-200": {
         "value": "{space.200}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-300": {
         "value": "{space.300}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-400": {
         "value": "{space.400}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-500": {
         "value": "{space.500}",
-        "type": "sizing"
+        "type": "spacing"
       },
       "base-600": {
         "value": "{space.600}",
-        "type": "sizing"
+        "type": "spacing"
       }
     }
   },
