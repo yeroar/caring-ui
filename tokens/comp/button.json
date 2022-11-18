@@ -12,8 +12,9 @@
       "primary": {
         "default": {
           "background": {
-            "value": "{color.green.500}",
-            "type": "color"
+            "value": "{semantic.color.actions.primary.default.background}",
+            "type": "color",
+            "description": "Primary"
           },
           "text": {
             "value": "{semantic.color.actions.primary.default.text}",
@@ -109,6 +110,40 @@
           }
         }
       }
+    },
+    "size": {
+      "height": {
+        "value": "{semantic.size.actions.height}",
+        "type": "sizing"
+      },
+      "icon-size": {
+        "value": "{semantic.size.actions.icon-size}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "vertical-paddings": {
+        "default": {
+          "value": "{semantic.spacing.actions.vertical-paddings.large}",
+          "type": "spacing"
+        },
+        "right-icon": {
+          "value": "{semantic.spacing.actions.vertical-paddings.large}",
+          "type": "spacing"
+        },
+        "left-icon": {
+          "value": "{semantic.spacing.actions.vertical-paddings.small}",
+          "type": "spacing"
+        }
+      },
+      "padding-between-elements": {
+        "value": "{semantic.spacing.actions.space-between}",
+        "type": "spacing"
+      }
     }
+  },
+  "body-1": {
+    "value": "{typography-brand.semantic.body-1}",
+    "type": "typography"
   }
 }

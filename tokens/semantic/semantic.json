@@ -271,7 +271,7 @@
             "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
           },
-          "label-text":{
+          "label-text": {
             "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
           },
@@ -288,7 +288,7 @@
           "input-text": {
             "value": "{brand.color.fg.on-surface}",
             "type": "color"
-          }      
+          }
         },
         "focused": {
           "container": {
@@ -299,7 +299,7 @@
             "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
           },
-          "label-text":{
+          "label-text": {
             "value": "{brand.color.primary.default}",
             "type": "color"
           },
@@ -324,7 +324,7 @@
           "state-layer": {
             "value": "{brand.color.state.focused.state-layer-opacity}",
             "type": "color"
-          }      
+          }
         },
         "hover": {
           "container": {
@@ -335,7 +335,7 @@
             "value": "{brand.color.inputs.on-surface-variant}",
             "type": "color"
           },
-          "label-text":{
+          "label-text": {
             "value": "{brand.color.fg.on-surface-variant}",
             "type": "color"
           },
@@ -347,8 +347,8 @@
           "border": {
             "value": "{brand.color.fg.on-surface}",
             "type": "color",
-            "description":"active indicator"
-          },   
+            "description": "active indicator"
+          },
           "input-text": {
             "value": "{brand.color.fg.on-surface}",
             "type": "color"
@@ -356,7 +356,7 @@
           "state-layer": {
             "value": "{brand.color.state.hover.state-layer-opacity}",
             "type": "color"
-          }     
+          }
         },
         "disabled": {
           "container": {
@@ -389,7 +389,7 @@
             "value": "{brand.color.error.fg}",
             "type": "color"
           },
-          "label-text":{
+          "label-text": {
             "value": "{brand.color.error.fg}",
             "type": "color"
           },
@@ -401,14 +401,13 @@
           "border": {
             "value": "{brand.color.error.fg}",
             "type": "color",
-            "description":"active indicator"
-          },   
+            "description": "active indicator"
+          },
           "input-text": {
             "value": "{brand.color.fg.on-surface}",
             "type": "color"
-          }    
+          }
         }
-      
       },
       "communication": {
         "info": {
@@ -541,15 +540,14 @@
           "type": "color",
           "description": "divider fg color value"
         },
-        "primary-container":  {
+        "primary-container": {
           "value": "{brand.color.primary.default}",
           "type": "color"
         },
-        "on-primary":  {
+        "on-primary": {
           "value": "{brand.color.fg.on-accent}",
           "type": "color"
         }
-        
       }
     },
     "opacity": {
@@ -618,8 +616,7 @@
         }
       },
       "containment": {
-
-        "container":{
+        "container": {
           "@1-line": {
             "value": "{brand.size.base-700}",
             "type": "sizing"
@@ -633,8 +630,7 @@
             "type": "sizing"
           }
         },
-
-        "optional":{
+        "optional": {
           "trailing-icon": {
             "value": "{brand.size.base-300}",
             "type": "sizing",
@@ -645,7 +641,7 @@
             "type": "sizing",
             "description": "optional"
           },
-          "leading-avatar-container":{
+          "leading-avatar-container": {
             "value": "{brand.size.base-500}",
             "type": "sizing",
             "description": "optional"
@@ -661,14 +657,10 @@
             "description": "optional"
           }
         }
-        
-        
-
       }
     },
     "spacing": {
       "in-review": {
-     
         "feedback": {
           "InComponent": {
             "space-between-sm": {
@@ -831,19 +823,20 @@
           "description": "null paddings for ghost action components"
         },
         "vertical-paddings": {
-          "value": "{brand.spacing.base-150}",
-          "type": "spacing",
-          "description": "default left / right paddings inside component container"
+          "small": {
+            "value": "{brand.spacing.base-150}",
+            "type": "spacing",
+            "description": "default left / right paddings inside component container"
+          },
+          "large": {
+            "value": "{brand.spacing.base-200}",
+            "type": "spacing"
+          }
         },
-        "paddings-between-elements": {
+        "space-between": {
           "value": "{brand.spacing.base-100}",
           "type": "spacing",
           "description": "space between nested elements inside component "
-        },
-        "paddings-w-right-icon": {
-          "value": "{brand.spacing.base-200}",
-          "type": "spacing",
-          "description": "default left / right paddings inside component container"
         },
         "in-group": {
           "value": "{brand.spacing.base-300}",
@@ -855,12 +848,12 @@
         "vertical-paddings": {
           "value": "{brand.spacing.base-200}",
           "type": "spacing",
-          "description" : "default vertical paddings"
+          "description": "default vertical paddings"
         },
         "vertical-paddings-xl": {
           "value": "{brand.spacing.base-300}",
           "type": "spacing",
-          "description" : "trailing element right padding"
+          "description": "trailing element right padding"
         },
         "leading-element-paddings": {
           "value": "{brand.spacing.base-200}",
@@ -904,5 +897,5 @@
         }
       }
     }
-    }
+  }
 }
