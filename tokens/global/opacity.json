@@ -1,0 +1,16 @@
+{
+    "opacity": {
+      "8": {
+        "value": "0",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "1",
+        "type": "sizing"
+      },
+      "38": {
+        "value": "2",
+        "type": "sizing"
+      }
+    }
+  }
