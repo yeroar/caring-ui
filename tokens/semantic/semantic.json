@@ -1022,6 +1022,26 @@
           }
         }
       }
+    },
+    "state-layer": {
+      "actions": {
+        "primary": {
+          "hover": {
+            "value": {
+              "fill": "{semantic.color.actions.primary.default.text}",
+              "opacity": "{brand.opacity.state-layer.hover}"
+            },
+            "type": "composition"
+          },
+          "focused": {
+            "value": {
+              "fill": "{semantic.color.actions.primary.focused.text}",
+              "opacity": "{brand.opacity.state-layer.focused}"
+            },
+            "type": "composition"
+          }
+        }
+      }
     }
   }
 }
