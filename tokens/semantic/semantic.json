@@ -954,14 +954,16 @@
           }
         },
         "space-between": {
+          "inComponent": {
           "value": "{brand.spacing.base-100}",
           "type": "spacing",
           "description": "space between nested elements inside component "
-        },
-        "in-group": {
-          "value": "{brand.spacing.base-300}",
-          "type": "spacing",
-          "description": "space between consecutive buttons"
+          },
+          "outComponent": {
+            "value": "{brand.spacing.base-300}",
+            "type": "spacing",
+            "description": "space between consecutive buttons"
+          }
         }
       },
       "containment": {

@@ -404,6 +404,32 @@
         "value": "{space.600}",
         "type": "spacing"
       }
+    },
+    "opacity": {
+        "state-layer": {
+          "hover": {
+            "value": "{opacity.8}",
+            "type": "opacity"
+          },
+          "focused": {
+            "value": "{opacity.12}",
+            "type": "opacity"
+          },
+          "pressed": {
+            "value": "{opacity.12}",
+            "type": "opacity"
+          }
+        },
+        "disabled": {
+          "container" :{
+            "value": "{opacity.12}",
+            "type": "opacity"
+          },
+          "content" :{
+            "value": "{opacity.38}",
+            "type": "opacity"
+          }
+        }
     }
   },
   "typography-brand": {
